@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main {
+
+    background-image: url(../img/jbl_speakers1.jpg);
+    background-size: cover;
+    height: 800px;
+    width: 100%;
+}
+
+main h1 {
+    
+    font-family: Arial;
+    padding-left: 2px;
+    padding-top: 2px;
+    color: aliceblue;
+    font-size: 70px;
+}
+
+main h3 {
+
+    padding-left: 10px;
+    color: aliceblue;
+    padding-top: 10px;
+    font-size: 50px;
+
+}
+
+.productos {
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.productos .producto  {
+
+    justify-content: center;
+    font-family: Arial;
+    padding: 2%;
+    align-items: center ;
+    font-size: 30px;
+    align-self: center;
+    display: flex;
+    
+}
+
+.info {
+    
+    margin: 5px;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    
+}
+
+footer {
+
+    background-color: brown;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    
+}
